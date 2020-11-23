@@ -7,13 +7,18 @@ body{
     line-height: 24px;
     color: #202124;
     font-size: small;
+
 }
 
 .wrapper {
     margin: auto;
     width: 92%;
-    height: 
-    background-color: green;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;;
+
 }
 .row{
     margin: 10px 20px 0 20px;
@@ -45,7 +50,11 @@ a:hover {
     width: 32px;
     background-position: -132px -38px;
     opacity: .55;
-    margin-left: 15px;
+}
+
+a .menu:hover { 
+
+    opacity: 100%;
 }
 
 
@@ -76,53 +85,63 @@ svg {
 }
 
 .search-row {
-    width: 100%;
-    display: flex;
+    width: 60%;
+    align-self: center;
     margin-top: 20px;
     height: 50px;
-justify-content: center;    
+    display: flex;
+
 
 }
 
 .input-row{
-    width: 60%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
+    width: 95%;
+   margin: auto;
 }
 
 input{
-    width: 60%;
+    width: 90%;
     height: 44px;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
-    padding-left: 50px;
+    padding-left: 2rem;
     margin: auto;
+    z-index: 3;
+    align-self: center;
+    
 }
 
+.icon-row {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;;
+    position: relative;
+    top: -2.2rem;
 
+    flex-basis: | auto;
+}
 .search-icon {
     
     position: relative;
-top: -35px;
-left: 175px;
-    z-index: 3;
+    top: 0px;
+    left: 0px;
     background-image: url("../images/search.svg");
     background-repeat: no-repeat;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    
 }
 
 .mic-icon {
-    
+    margin: 0 5px;
     position: relative;
-    left: 565px;
-    top: 0;
+    left: 0px;
+    top: 0px;
 
     background-image: url("../images/microphone.svg");
     background-repeat: no-repeat;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
 }
