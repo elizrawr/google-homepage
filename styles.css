@@ -1,0 +1,128 @@
+
+
+body{
+    font-family: arial, sans-serif;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    line-height: 24px;
+    color: #202124;
+    font-size: small;
+}
+
+.wrapper {
+    margin: auto;
+    width: 92%;
+    height: 
+    background-color: green;
+}
+.row{
+    margin: 10px 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    
+
+}
+
+
+a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+.menu {
+    display: inline-block;
+    background-image: url("../images/google-sprites-menu.png");
+    height: 32px;
+    width: 32px;
+    background-position: -132px -38px;
+    opacity: .55;
+    margin-left: 15px;
+}
+
+
+svg {
+    position: absolute;
+    padding: 1px;
+}
+.profile {
+    border-radius: 50%;
+    border: solid white 5px;
+    padding: 0;
+}
+.left {
+    
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo {
+    text-align: center;
+    padding-top: 5%;
+    width: auto;
+    height: auto;
+}
+
+.search-row {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    height: 50px;
+justify-content: center;    
+
+}
+
+.input-row{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+input{
+    width: 60%;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    padding-left: 50px;
+    margin: auto;
+}
+
+
+.search-icon {
+    
+    position: relative;
+top: -35px;
+left: 175px;
+    z-index: 3;
+    background-image: url("../images/search.svg");
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.mic-icon {
+    
+    position: relative;
+    left: 565px;
+    top: 0;
+
+    background-image: url("../images/microphone.svg");
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
