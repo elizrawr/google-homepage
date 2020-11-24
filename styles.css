@@ -45,7 +45,7 @@ a:hover {
 
 .menu {
     display: inline-block;
-    background-image: url("https://elizrawr.github.io/google-homepage/images/google-sprites-menu.png");
+    background-image: url("google-sprites-menu.png");
     height: 32px;
     width: 32px;
     background-position: -132px -38px;
