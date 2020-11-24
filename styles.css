@@ -40,7 +40,7 @@ a:hover {
 
 .menu {
     display: inline-block;
-    background-image: url("../images/google-sprites-menu.png");
+    background-image: url("/images/google-sprites-menu.png");
     height: 32px;
     width: 32px;
     background-position: -132px -38px;
@@ -109,7 +109,7 @@ input{
 top: -35px;
 left: 175px;
     z-index: 3;
-    background-image: url("../images/search.svg");
+    background-image: url("/images/search.svg");
     background-repeat: no-repeat;
     width: 32px;
     height: 32px;
@@ -121,7 +121,7 @@ left: 175px;
     left: 565px;
     top: 0;
 
-    background-image: url("../images/microphone.svg");
+    background-image: url("/images/microphone.svg");
     background-repeat: no-repeat;
     width: 32px;
     height: 32px;
