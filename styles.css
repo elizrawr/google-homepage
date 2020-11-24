@@ -45,11 +45,7 @@ a:hover {
 
 .menu {
     display: inline-block;
-<<<<<<< HEAD
     background-image: url("/google-homepage/images/google-sprites-menu.png");
-=======
-    background-image: url("/images/google-sprites-menu.png");
->>>>>>> b426dddb046b52a52c0d9c2a49fec889ecf43d1a
     height: 32px;
     width: 32px;
     background-position: -132px -38px;
@@ -128,16 +124,9 @@ input{
 .search-icon {
     
     position: relative;
-<<<<<<< HEAD
     top: 0px;
     left: 0px;
     background-image: url("/google-homepage/images/search.svg");
-=======
-top: -35px;
-left: 175px;
-    z-index: 3;
-    background-image: url("/images/search.svg");
->>>>>>> b426dddb046b52a52c0d9c2a49fec889ecf43d1a
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;
@@ -151,16 +140,8 @@ left: 175px;
     left: 0px;
     top: 0px;
 
-<<<<<<< HEAD
     background-image: url("/google-homepage/images/microphone.svg");
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;
 }
-=======
-    background-image: url("/images/microphone.svg");
-    background-repeat: no-repeat;
-    width: 32px;
-    height: 32px;
-}
->>>>>>> b426dddb046b52a52c0d9c2a49fec889ecf43d1a
